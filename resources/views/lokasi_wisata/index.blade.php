@@ -8,10 +8,10 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">Lokasi Konservasi</div>
-                
+
                 <div class="card-body">
 
-                    
+
                     <table id="nota" class="table table-hover table-condensed">
                         <thead>
                         <tr>
@@ -34,11 +34,11 @@
                                     {{ $t->alamat }}
                                 </td>
                                 <td>
-                                    <a href="{{ $t->link }}">maps</a>
+                                    <a href="{{ $t->link }}" target="_blank">maps</a>
                                 <!-- <input type='submit' value='hapus' class='btn btn-xs btn-danger'/> -->
                                 </td>
-                                
-                            
+
+
                             </tr>
                         @endforeach
                         </tbody>
